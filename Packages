@@ -1,0 +1,15 @@
+Package: dev.preloading.retranslate
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Preloading
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./dev.preloading.retranslate_1.1.0_iphoneos-arm.deb
+Size: 18432
+MD5sum: 3351e159ad5f0b491818bfbf457e5d13
+SHA1: 46d114bc457bd47fa7d6097538653d1d624beb65
+SHA256: f9dd235a3461dc6a55aaa5bf5aa669d200568cb5e38cecdaa5199e607be7ae83
+Section: Tweaks
+Description: Fixes Google Translate.
+Author: Preloading, SpaceSaver2000-1
+Name: Retranslate
