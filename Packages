@@ -572,6 +572,27 @@ Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/Icon.png
 Name: BioProtect
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: net.tetherme.tetherme
+Version: 1.3-4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 59
+Depends: mobilesubstrate (>= 0.9.3209-1), firmware (>= 3.0)
+Filename: ./net.tetherme.tetherme_1.3-4_iphoneos-arm.deb
+Size: 6766
+MD5sum: abcfa16f248823e00dc252b764c6356e
+SHA1: 4bc813d7325d4e14381f3fc3d173655e44fb3804
+SHA256: 84c04baa9066b801a2ad14b964ec288f5224a59e16455671a4a07f91ad92f760
+Section: Networking
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tethermeData
+Description: Dynamically enable native tethering. 3.0+ (Tested working on iOS4.X) NOTE: If, upon installation or removal, service does not return you MAY need to reboot your device.
+Tag: cydia::commercial, purpose::extension
+Author: cirdan & sbingner <support@tetherme.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tethermeData
+Dev: tetherme
+Name: TetherMe
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: openssh
 Version: 6.1p1-11
 Architecture: iphoneos-arm
