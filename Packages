@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: Preloading
 Installed-Size: 160
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./dev.preloading.retranslate_1.1.0_iphoneos-arm.deb
+Filename: ./debs/dev.preloading.retranslate_1.1.0_iphoneos-arm.deb
 Size: 18432
 MD5sum: 3351e159ad5f0b491818bfbf457e5d13
 SHA1: 46d114bc457bd47fa7d6097538653d1d624beb65
