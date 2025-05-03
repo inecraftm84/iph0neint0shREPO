@@ -1,3 +1,27 @@
+Package: com.chpwn.infinidock
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Pre-Depends: firmware (>= 3.0)
+Depends: mobilesubstrate, preferenceloader (>= 1.1)
+Conflicts: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock
+Replaces: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock
+Provides: com.saurik.iphone.fid, com.macciti.6icondock
+Filename: ./debs/infinidock_1.2_Cracked.deb
+Size: 30646
+MD5sum: fadfa541f7628450b187ec08d6da1ba9
+SHA1: 01332de23d068be5f2668f8a418935e5714dd2e3
+SHA256: 08aef32417dd4f29e313112801746dba381a13a0c243b0809c33fa35855a661a
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=infinidockDp
+Description: Full dock customization: scrolling, adjustable icon amounts, and more! Add as many icons as you want, and the dock will grow to accommodate them, and set how many you want on every page. The ultimate dock customization tool, by one of the developers of ProSwitcher. Please report all bugs and submit all feature requests via email so we can take a look!
+Tag: cydia::commercial
+Author: chpwn <infinidock@xuzz.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=infinidockDp
+Dev: chpwn
+Name: Infinidock
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: dev.preloading.retranslate
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -13,26 +37,6 @@ Section: Tweaks
 Description: Fixes Google Translate.
 Author: Preloading, SpaceSaver2000-1
 Name: Retranslate
-
-Package: us.hackulo.appsync31
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: Genius Blog <appsync@hackulo.us>
-Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
-Depends: com.hackulo.us.sourcegui
-Provides: appsync
-Filename: ./debs/appsync31-1.0.2.deb
-Size: 296564
-MD5sum: 78c9291797041703656194d2faa704d5
-SHA1: c25c2708c8ae6557d0154eb08ae5622c3f2ed90b
-SHA256: 648058977902b6da3dfcfa751036edc0c91557c9446045237be7d2572ce39dc0
-Section: Hackulo.us
-Priority: standard
-Description: AppSync patches the installd file on your device
-Author: Reilly <appsync@hackulo.us>
-Depiction: http://hackulo.us/depict/appsync31/
-Name: AppSync for OS 3.1
-Sponsor: Hackulo.us <http://hackulo.us>
 
 Package: us.hackulo.appsync32
 Version: 1.0.2
@@ -73,24 +77,6 @@ Depiction: http://hackulo.us/depict/appsync40/
 Name: AppSync for OS 4.0
 Sponsor: Hackulo.us <http://hackulo.us>
 
-Package: us.hackulo.appsync40plus
-Version: 1.1-6
-Architecture: iphoneos-arm
-Maintainer: Genius Blog <apps@hackulo.us>
-Pre-Depends: firmware (>= 4.0), firmware (<< 5.0)
-Provides: appsync, us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
-Filename: ./debs/appsync40plus-1.1-6.deb
-Size: 9164
-MD5sum: b11e63072ed194b26033ec84ff440798
-SHA1: affc7f842a0bf2ffbfb7b2509dff0b0d9d713a5e
-SHA256: faeed4152d7909e696e1c905f9386d90a1e14036882f61356ce7847c24e9ec74
-Section: Hackulo.us
-Priority: standard
-Description: AppSync allows you to sync and install cracked iOS applications.
-Author: Dissident <apps@hackulo.us>
-Name: AppSync for 4.0+
-Sponsor: Hackulo.us <http://hackulo.us>
-
 Package: us.hackulo.appsync41
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -108,63 +94,4 @@ Description: AppSync patches the installd file on your device
 Author: Reilly <appsync@hackulo.us>
 Depiction: http://hackulo.us/depict/appsync41/
 Name: AppSync for OS 4.1
-Sponsor: Hackulo.us <http://hackulo.us>
-
-Package: us.hackulo.appsync42
-Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: Dissident <appsync@hackulo.us>
-Pre-Depends: firmware (= 4.2) | firmware (= 4.2.1)
-Depends: com.hackulo.us.sourcegui
-Filename: ./debs/appsync42-1.0-1.deb
-Size: 242292
-MD5sum: 9b4fafbdb1771c96f483dba2c7a6d1e3
-SHA1: 9106ad4a4458eb621b8a4b58010e0389956de85c
-SHA256: a9cfd3393c68a3ac9962a6ec15c8015621a8ed2988a260af9c9d7e9ec9d831c8
-Section: Hackulo.us
-Priority: standard
-Description: AppSync patches the installd file on your device
-Author: Reilly <appsync@hackulo.us>
-Depiction: http://hackulo.us/depict/appsync42/
-Name: AppSync for OS 4.2
-Sponsor: Hackulo.us <http://hackulo.us>
-
-Package: us.hackulo.appsync50
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: Dissident <apps@hackulo.us>
-Pre-Depends: firmware (>= 5.0)
-Depends: com.hackulo.us.sourcegui
-Provides: appsync
-Filename: ./debs/appsync50-1.0.2.deb
-Size: 239684
-MD5sum: f25b166b060ee7c4a855519cf059c511
-SHA1: 7e982d9e7b78def67d1d87616d8c3ee3398acaf3
-SHA256: 42ef25b4cf99623486cd47587f462b28570da7303de57d30072ebeab9764d05a
-Section: Hackulo.us
-Priority: standard
-Description: AppSync patches the installd file on your device
-Author: Dissident <apps@hackulo.us>
-Depiction: http://hackulo.us/depict/appsync50/
-Name: AppSync for OS 5
-Sponsor: Hackulo.us <http://hackulo.us>
-
-Package: us.hackulo.appsync50plus
-Version: 2.2
-Architecture: iphoneos-arm
-Maintainer: Genius Blog <apps@hackulo.us>
-Pre-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: us.hackulo.appsync50
-Replaces: us.hackulo.appsync50
-Provides: appsync
-Filename: ./debs/appsync50plus-2.2.deb
-Size: 4454
-MD5sum: 8240e5ee73e8d0855a2e0add176bc6d6
-SHA1: cda5c1e471a14aa12262e2daed27431c58fc97ee
-SHA256: 732cbe80f290121cd9502a06fc8be401cdc4c6152000ddb7f3d712d052ff00e9
-Section: Hackulo.us
-Priority: standard
-Description: AppSync allows you to sync and install cracked iOS applications.
-Author: Dissident <apps@hackulo.us>
-Name: AppSync for iOS 5.0+
 Sponsor: Hackulo.us <http://hackulo.us>
