@@ -1,3 +1,80 @@
+Package: com.explusalpha.snes9xex
+Version: 1.5.29
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2313
+Depends: firmware (>= 3.1)
+Filename: ./debs/Snes9xEX1.5.29.deb
+Size: 696288
+MD5sum: 7c9e0302901b2bd43fc643978f153ac0
+SHA1: 172ccc0e3d50287cdcaebbb438ec74f3bd7e4368
+SHA256: 7fefcb92a9fd178fb0a85db431f11ad0b40f3f099c614d6570f1ef4be3031769
+Section: Games
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=snes9xexData
+Description: SNES/Super Famicom Emulator; Snes9x 1.43
+Tag: purpose::uikit, ios7support::1, ios8support::1
+Author: Robert Broglia <info@explusalpha.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=snes9xexData
+Dev: explusalpha
+Icon: file:///Applications/Snes9xEX.app/icon-57.png
+Name: Snes9x EX
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.heaveniphone.appsync6x
+Version: 2.3-1
+Architecture: iphoneos-arm
+Maintainer: Heaveniphone-ThanhThi <heaveniphone@heaveniphone.com>
+Pre-Depends: firmware (>= 6.0)
+Depends: com.heaveniphone.icon, mobilesubstrate
+Filename: ./debs/appsync_ios 6_2.3-1.deb
+Size: 4472
+MD5sum: 07f4ec9de84dcc412d3f7a8383791987
+SHA1: 5d1981d3952f49607cb41241a8b14f5711ff29be
+SHA256: ebe35459c425cd67a2377950aabcc9112ce425a084d6ee850dd4a32c66424c3c
+Section: HiPhone-Tools
+Description: Allows cracked apps/games to be synced with iTunes. Allows cracked apps/games to be synced with iTunes.  This version is compatible with the following Firmwares 4.x/5.x/6.x
+Depiction: http://cydia.heaveniphone.com/info/appsync6x.php
+Name: AppSync for iOS 6
+Sponsor: Heaven iPhone <http://heaveniphone.com/>
+
+Package: com.mirrordev.fakecarrier
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: ./debs/fakecarrier_1.3.deb
+Size: 47110
+MD5sum: c63b195381693a345f02684f66627cc3
+SHA1: 1207f17599d2b42c67dc10745869f8bb9846bd8f
+SHA256: 8d596157084b2f7b5bb638e64d05147823b79db8548850fb71d0019e913fdff4
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakecarrierData
+Description: Can easily change the carrier name and time string on status bar. Also can show batterylevel. (iPhone 3.0 required)
+Author: Mirror Dev <support@mirrordev.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakecarrierData
+Dev: mirrordev
+Name: FakeCarrier
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.xsellize.colorkeyboard
+Version: 1.1.6
+Architecture: iphoneos-arm
+Maintainer: xSellize <admin@xsellize.com>
+Depends: mobilesubstrate, firmware (>= 4.0), preferenceloader, shell-cmds
+Filename: ./debs/com.xsellize.colorkeyboard_1.1.6_iphoneos-arm.deb
+Size: 5117972
+MD5sum: eebd334629747b582cf4c8cc3d55b854
+SHA1: b2e31560acacfe006cbcc18fc4a557aba9c09174
+SHA256: 9836b761bec51cf5a7f54f0541acb3dc055db9cf0455f1ce97639a147360c81e
+Section: X Modz
+Homepage: http://apt.xsellize.com/depic/colorkeyboard
+Description: Colorized keyboard on your iPhone
+Author: xRepo <repo@xsellize.com>
+Depiction: http://apt.xsellize.com/depic/colorkeyboard
+Name: Color Keyboard
+Sponsor: xSellize <http://xsellize.com>
+
 Package: dev.preloading.retranslate
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -13,3 +90,123 @@ Section: Tweaks
 Description: Fixes Google Translate.
 Author: Preloading, SpaceSaver2000-1
 Name: Retranslate
+
+Package: us.hackulo.appsync31
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Genius Blog <appsync@hackulo.us>
+Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
+Depends: com.hackulo.us.sourcegui
+Provides: appsync
+Filename: ./debs/appsync31-1.0.2.deb
+Size: 296564
+MD5sum: 78c9291797041703656194d2faa704d5
+SHA1: c25c2708c8ae6557d0154eb08ae5622c3f2ed90b
+SHA256: 648058977902b6da3dfcfa751036edc0c91557c9446045237be7d2572ce39dc0
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Reilly <appsync@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync31/
+Name: AppSync for OS 3.1
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: us.hackulo.appsync40
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Dissident <appsync@hackulo.us>
+Pre-Depends: firmware (= 4.0) | firmware (= 4.0.1)
+Depends: com.hackulo.us.sourcegui
+Filename: ./debs/appsync40-1.0.1.deb
+Size: 285512
+MD5sum: bafc38d8af38c4df16f42581b1f507ad
+SHA1: a6bd5d90f59171348d3f0e066fd1358d3e24f56b
+SHA256: 8c13d0b0f1caa9cdbb25c17afd1fedf28a6db75259efba78a4934a42271a6f4c
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Reilly <appsync@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync40/
+Name: AppSync for OS 4.0
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: us.hackulo.appsync42
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Dissident <appsync@hackulo.us>
+Pre-Depends: firmware (= 4.2) | firmware (= 4.2.1)
+Depends: com.hackulo.us.sourcegui
+Filename: ./debs/appsync42-1.0-1.deb
+Size: 242292
+MD5sum: 9b4fafbdb1771c96f483dba2c7a6d1e3
+SHA1: 9106ad4a4458eb621b8a4b58010e0389956de85c
+SHA256: a9cfd3393c68a3ac9962a6ec15c8015621a8ed2988a260af9c9d7e9ec9d831c8
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Reilly <appsync@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync42/
+Name: AppSync for OS 4.2
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: us.hackulo.appsync50
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Dissident <apps@hackulo.us>
+Pre-Depends: firmware (>= 5.0)
+Depends: com.hackulo.us.sourcegui
+Provides: appsync
+Filename: ./debs/appsync50-1.0.2.deb
+Size: 239684
+MD5sum: f25b166b060ee7c4a855519cf059c511
+SHA1: 7e982d9e7b78def67d1d87616d8c3ee3398acaf3
+SHA256: 42ef25b4cf99623486cd47587f462b28570da7303de57d30072ebeab9764d05a
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Dissident <apps@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync50/
+Name: AppSync for OS 5
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: vn.gsm.appsync40plus
+Version: 1.1-5
+Architecture: iphoneos-arm
+Maintainer: Thieu.Bocap <support@gsm.vn>
+Pre-Depends: firmware (>= 4.0)
+Replaces: us.hackulo.appsync40plus, com.xsellize.appsync40plus, vn.gsm.appsync40, vn.gsm.appsync41, vn.gsm.appsync42
+Provides: vn.gsm.appsync, vn.gsm.appsync40, vn.gsm.appsync41, vn.gsm.appsync42
+Filename: ./debs/appsync40plus_1.1-5.deb
+Size: 9236
+MD5sum: ecd3afa12dc015ac9f4ec5a1680b66d6
+SHA1: a70665bde7f9df63ba3a33ca83d86a436c3d64fc
+SHA256: 866f9ce22398b399bbbee7d80aedaa1a81d751252fd633c2bfe70352eeb20e85
+Section: !GSMVN-Tools
+Priority: standard
+Homepage: http://iphone.gsm.vn/
+Description: AppSync allows you to sync and install cracked iOS applications.
+Author: Dissident <support@gsm.vn>
+Dipiction: http://cydia.gsm.vn/t903/
+Name: AppSync for 4.0+
+Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
+
+Package: vn.gsm.appsync50plus
+Version: 2.2
+Architecture: iphoneos-arm
+Maintainer: Thieu.Bocap <support@gsm.vn>
+Depends: gsmicon, firmware (>= 5.0), mobilesubstrate
+Conflicts: vn.gsm.appsync40plus, us.hackulo.appsync50plus, us.hackulo.appsync50, com.xsellize.appsync50plus, com.xsellize.appsync50, com.heaveniphone.appsync50plus, com.heaveniphone.appsync50, appsync
+Replaces: vn.gsm.appsync40plus, us.hackulo.appsync50plus, us.hackulo.appsync50, com.xsellize.appsync50plus, com.xsellize.appsync50, com.heaveniphone.appsync50plus, com.heaveniphone.appsync50, appsync
+Filename: ./debs/appsync50plus_2.2.deb
+Size: 4540
+MD5sum: 08168d07c61bac91e4fdc2513e3b9e29
+SHA1: a83c3199d9788a2e8c8ec69166c88ad33b80935f
+SHA256: 0c6122b901a978e13702448545a135b3c0326ba23633caa827cb0f66ad81309a
+Section: !GSMVN-Tools
+Priority: standard
+Homepage: http://cydia.vn/
+Description: AppSync allows you to sync and install cracked iOS applications.
+Author: Dissident <repo@cydia.vn>
+Depiction: http://cydia.gsm.vn/t2086/
+Name: AppSync for iOS 5.0+
+Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
