@@ -22,6 +22,29 @@ Dev: chpwn
 Name: Infinidock
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.myrepospace.hasim751.blued-obex
+Version: 0.9.8
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 3760
+Pre-Depends: firmware (>= 4.2)
+Depends: mobilesubstrate, libactivator, shell-cmds, coreutils, coreutils-bin, com.ericasadun.utilities, com.ericday.blued, preferenceloader
+Filename: ./debs/AirBlue Sharing_Cracked_Hasim751.deb
+Size: 2458546
+MD5sum: bd831e50d0b2792a8f66e4ffe72bf255
+SHA1: 4ef642d045b91ccfa895b659948bbac77b279806
+SHA256: 3057aaf8d7b2826250caaefe0ba41e34f17bcef0b33414d86037035f2d2b0bca
+Section: Networking
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bluedobexDp
+Description: Bluetooth OBEX and WiFi(P2P supported) File Transfer, AirDrop for your iOS
+Tag: cydia::commercial, purpose::extension
+Author: Hasim751 <hasim751@live.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bluedobexDp
+Dev: ericday
+Icon: file:///Applications/blued-obex-gui.app/Icon.png
+Name: AirBlue Sharing
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: dev.preloading.retranslate
 Version: 1.1.0
 Architecture: iphoneos-arm
