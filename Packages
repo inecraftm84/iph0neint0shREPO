@@ -1,49 +1,42 @@
-Package: com.chpwn.infinidock
-Version: 1.2
+Package: ai.akemi.appsyncunified
+Version: 116.0
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Pre-Depends: firmware (>= 3.0)
-Depends: mobilesubstrate, preferenceloader (>= 1.1)
-Conflicts: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock
-Replaces: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock
-Provides: com.saurik.iphone.fid, com.macciti.6icondock
-Filename: ./debs/infinidock_1.2_Cracked.deb
-Size: 30646
-MD5sum: fadfa541f7628450b187ec08d6da1ba9
-SHA1: 01332de23d068be5f2668f8a418935e5714dd2e3
-SHA256: 08aef32417dd4f29e313112801746dba381a13a0c243b0809c33fa35855a661a
-Section: System
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=infinidockDp
-Description: Full dock customization: scrolling, adjustable icon amounts, and more! Add as many icons as you want, and the dock will grow to accommodate them, and set how many you want on every page. The ultimate dock customization tool, by one of the developers of ProSwitcher. Please report all bugs and submit all feature requests via email so we can take a look!
-Tag: cydia::commercial
-Author: chpwn <infinidock@xuzz.net>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=infinidockDp
-Dev: chpwn
-Name: Infinidock
-Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 636
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: ./debs/ai.akemi.appsyncunified_116.0_iphoneos-arm.akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
+Size: 51658
+MD5sum: 536009a11dad57e48a5563224eaffaff
+SHA1: e0fa412cb3c26718887edd834804c88909297079
+SHA256: 0036f28fcbdb165d4f58968a237ca9fe7b6ed33fea25b9a5eb1fc141f6bf5a09
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
 
-Package: com.myrepospace.hasim751.blued-obex
-Version: 0.9.8
+Package: com.repoxox.icleanerpro
+Version: 7.7.0
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 3760
-Pre-Depends: firmware (>= 4.2)
-Depends: mobilesubstrate, libactivator, shell-cmds, coreutils, coreutils-bin, com.ericasadun.utilities, com.ericday.blued, preferenceloader
-Filename: ./debs/AirBlue Sharing_Cracked_Hasim751.deb
-Size: 2458546
-MD5sum: bd831e50d0b2792a8f66e4ffe72bf255
-SHA1: 4ef642d045b91ccfa895b659948bbac77b279806
-SHA256: 3057aaf8d7b2826250caaefe0ba41e34f17bcef0b33414d86037035f2d2b0bca
-Section: Networking
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bluedobexDp
-Description: Bluetooth OBEX and WiFi(P2P supported) File Transfer, AirDrop for your iOS
-Tag: cydia::commercial, purpose::extension
-Author: Hasim751 <hasim751@live.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bluedobexDp
-Dev: ericday
-Icon: file:///Applications/blued-obex-gui.app/Icon.png
-Name: AirBlue Sharing
-Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: thuan_vn <thuanvodka@gmail.com>
+Depends: firmware (>= 4.0), apt7, findutils, shell-cmds
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.repoxox.icleanerpro_7.7.0.deb
+Size: 7386234
+MD5sum: 4f8e39c18623df4166cbacdb833feef9
+SHA1: 1d4845d3524ed3e1d7752a6279beff22e1a76da3
+SHA256: 0998d402e0feec42f454f4de09cf1b291eb223b5202734943665b9c7771b9b8e
+Section: Utilities
+Homepage: https://repoxox.github.io
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
 
 Package: dev.preloading.retranslate
 Version: 1.1.0
@@ -60,6 +53,162 @@ Section: Tweaks
 Description: Fixes Google Translate.
 Author: Preloading, SpaceSaver2000-1
 Name: Retranslate
+
+Package: net.angelxwind.appsync40plus
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Pre-Depends: firmware (>= 4.0), firmware (<< 5.0)
+Conflicts: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Replaces: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Provides: appsync, us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Filename: ./debs/net.angelxwind.appsync40plus.deb
+Size: 9202
+MD5sum: 4450d7c556bdf0504b14d678da5e5362
+SHA1: 7b0040049afef1d0309c108bcf0a7ed9d19921d4
+SHA256: 0d20fd163cfa37f4e63f054516d9b7c0f68801cf517594dbe2145faf50c5c8a7
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: AppSync for iOS 4 allows you to sync and install unsigned iOS applications. Only for iOS 4.
+Author: Karen/あけみ, Dissident <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsync40plus
+Name: AppSync for iOS 4.0
+
+Package: us.hackulo.appsync32
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Dissident <apps@hackulo.us>
+Pre-Depends: firmware (= 3.2) | firmware (= 3.2.1) | firmware (= 3.2.2)
+Depends: com.hackulo.us.sourcegui
+Provides: appsync
+Filename: ./debs/appsync32-1.0.2.deb
+Size: 274604
+MD5sum: b929f7ee7178df882e31cb34f78c99db
+SHA1: 9e45cce1063f42f2907544ef15d05037108d8354
+SHA256: d2125434b2bcc895cf2c65e7cf0d9d89d7c4143ffccdbf09466e77f7f89b86d8
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Dissident <apps@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync32/
+Name: AppSync for OS 3.2
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: us.hackulo.appsync40
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Dissident <appsync@hackulo.us>
+Pre-Depends: firmware (= 4.0) | firmware (= 4.0.1) | firmware (= 4.0.2)
+Depends: com.hackulo.us.sourcegui
+Filename: ./debs/appsync40-1.0.2.deb
+Size: 285514
+MD5sum: 2f5d1dcdf9ca5173efd501ab2e88761f
+SHA1: b19d074b59ecda3d95a00620b4fd1699d11bc72c
+SHA256: 7009e14f630ae4ddcbea4d7c8723d1050e4301b5dd433cf17077578ea9811031
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Reilly <appsync@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync40/
+Name: AppSync for OS 4.0
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: us.hackulo.appsync41
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Dissident <appsync@hackulo.us>
+Pre-Depends: firmware (= 4.1)
+Depends: com.hackulo.us.sourcegui
+Filename: ./debs/appsync41-1.0.1.deb
+Size: 270612
+MD5sum: d48daa3a36e9a9e9ae245a2aadff9b95
+SHA1: 41b10155db8eaacd8e5d84c10df6af60752ecdaa
+SHA256: ac4f84fbb6ca9544d29f4d9dd308f28bdd0e5991085d483e825d7986a6d9858f
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Reilly <appsync@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync41/
+Name: AppSync for OS 4.1
+Sponsor: Hackulo.us <http://hackulo.us>
+
+dpkg-scanpackages: info: Wrote 7 entries to output Packages file.
+paped@kang:/mnt/c/Users/paped/OneDrive/桌面/iph0neint0shREPO$ dpkg-scanpackages ./debs
+Package: ai.akemi.appsyncunified
+Version: 116.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 636
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: ./debs/ai.akemi.appsyncunified_116.0_iphoneos-arm.akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
+Size: 51658
+MD5sum: 536009a11dad57e48a5563224eaffaff
+SHA1: e0fa412cb3c26718887edd834804c88909297079
+SHA256: 0036f28fcbdb165d4f58968a237ca9fe7b6ed33fea25b9a5eb1fc141f6bf5a09
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
+Package: com.repoxox.icleanerpro
+Version: 7.7.0
+Architecture: iphoneos-arm
+Maintainer: thuan_vn <thuanvodka@gmail.com>
+Depends: firmware (>= 4.0), apt7, findutils, shell-cmds
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.repoxox.icleanerpro_7.7.0.deb
+Size: 7386234
+MD5sum: 4f8e39c18623df4166cbacdb833feef9
+SHA1: 1d4845d3524ed3e1d7752a6279beff22e1a76da3
+SHA256: 0998d402e0feec42f454f4de09cf1b291eb223b5202734943665b9c7771b9b8e
+Section: Utilities
+Homepage: https://repoxox.github.io
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: dev.preloading.retranslate
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Preloading
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/dev.preloading.retranslate_1.1.0_iphoneos-arm.deb
+Size: 18432
+MD5sum: 3351e159ad5f0b491818bfbf457e5d13
+SHA1: 46d114bc457bd47fa7d6097538653d1d624beb65
+SHA256: f9dd235a3461dc6a55aaa5bf5aa669d200568cb5e38cecdaa5199e607be7ae83
+Section: Tweaks
+Description: Fixes Google Translate.
+Author: Preloading, SpaceSaver2000-1
+Name: Retranslate
+
+Package: net.angelxwind.appsync40plus
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Pre-Depends: firmware (>= 4.0), firmware (<< 5.0)
+Conflicts: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Replaces: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Provides: appsync, us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Filename: ./debs/net.angelxwind.appsync40plus.deb
+Size: 9202
+MD5sum: 4450d7c556bdf0504b14d678da5e5362
+SHA1: 7b0040049afef1d0309c108bcf0a7ed9d19921d4
+SHA256: 0d20fd163cfa37f4e63f054516d9b7c0f68801cf517594dbe2145faf50c5c8a7
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: AppSync for iOS 4 allows you to sync and install unsigned iOS applications. Only for iOS 4.
+Author: Karen/あけみ, Dissident <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsync40plus
+Name: AppSync for iOS 4.0
 
 Package: us.hackulo.appsync32
 Version: 1.0.2
