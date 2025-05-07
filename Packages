@@ -49,27 +49,26 @@ Description: iOS 16 Lock Screen clock for older iDevices. Apply using Xen HTML. 
 Author: iVintageLover
 Name: LockTimeX
 
-Package: com.saurik.afc2d
-Version: 1.2
+Package: com.sinfuliphone.iapfree
+Version: 4.0.1
 Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: firmware (<< 8.0) | mobilesubstrate
-Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: ./debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
-Size: 18114
-MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
-SHA1: bddaf385263b9aad2b032b2116179f83afd077cc
-SHA256: 287ac4ce1a6e4095e824fd90f71fed301ff7d9508f1cd2d87a7354053e347a3c
-Section: System
-Priority: optional
-Description: allow full file-system access over USB
-Tag: purpose::daemon, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
-Name: Apple File Conduit "2"
+Maintainer: SiNfuL iPhone <whatever@gmail.com>
+Pre-Depends: firmware (>= 5.0)
+Depends: com.sinfuliphone.repoprep, mobilesubstrate (>= 0.9.4001)
+Conflicts: com.crazydoraemon.IAPFree, com.crazydoraemon.commonlibs (>= 1.0.1), com.crazydoraemon.iapfree.toggle, app.weiphone.xsellize.iap, app.weiphone.urus.iap, iap.178, com.urus.iap
+Replaces: com.crazydoraemon.IAPFree, com.crazydoraemon.commonlibs (>= 1.0.1), com.crazydoraemon.iapfree.toggle
+Filename: ./debs/Iapfree.deb
+Size: 751352
+MD5sum: f6b01fbfd0c8939db70a57a56c811d9b
+SHA1: e270fb9e417ddf1238c681f8764719ea389f44d5
+SHA256: 9f91940aa94e7e0ce92982589ee848a99028b4cf3d73301579efd1a282e45aba
+Section: SiNfuL iPhone
+Homepage: http://www.sinfuliphone.com/
+Description: Allows you to get FREE In-App Purchases for most Apps/Games!
+Depiction: http://www.sinfuliphonerepo.com/depiction/iapfree.html
+Icon: file:///Applications/IAPFree.app/Icon-Small.png
+Name: iAPFree
+Notes: Includes CorePlugin v2.0.3, commonlibs v1.0.1, and SBSettings Toggle v1.0.0
 
 Package: dev.preloading.retranslate
 Version: 1.1.0
@@ -107,25 +106,20 @@ Author: Karen/あけみ, Dissident <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsync40plus
 Name: AppSync for iOS 4.0
 
-Package: uk.invoxiplaygames.tubefixer
-Version: 2.0-152+debug
+Package: repo.biteyourapple.net.LocalIAPStore
+Version: 1.4-2
 Architecture: iphoneos-arm
-Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Installed-Size: 136
-Pre-Depends: dpkg (>= 1.13.25-5)
-Depends: mobilesubstrate, firmware (>= 2.0)
-Filename: ./debs/tubefixer-2.0-152-RC1.deb
-Size: 27972
-MD5sum: 3099d5610e8e73426a947fcf646fffcf
-SHA1: 8971219e0b2c4dee1632631a72507d387689deb6
-SHA256: 7912801feec7ec8062a39a0187976647da05cfe16026147a65ec2ecd58dd7c00
-Section: Tweaks
-Homepage: http://tubefixer.ovh/
-Description: Package to fix YouTube on iOS 3-5
-Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Depiction: http://cydia.invoxiplaygames.uk/dp/tubefixer.php
-Icon: file:///Library/Application%20Support/uk.invoxiplaygames.tubefixer/tubefixericon.png
-Name: TubeFixer for iOS
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Filename: ./debs/LocalIapStore.deb
+Size: 70948
+MD5sum: ddb8a3ec034c87cf9c0572ad8d3aa0c6
+SHA1: 68516e3c708ccd482972e309dd405c23b17528ce
+SHA256: f0328afe4300320660eea65a24fcfef1817179a0179cb5324497ab2124e1bc02
+Section: BYA Apps
+Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
+Author: BYA Repository
+Depiction: http://repo.biteyourapple.net/depiction/dep.php?name=LocalIAPStore
+Name: LocalIAPStore
 
 Package: us.hackulo.appsync32
 Version: 1.0.2
