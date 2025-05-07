@@ -19,6 +19,58 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: bag.xml.sigpass
+Version: 0.0.1-9+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/bag.xml.sigpass_0.0.1-9+debug_iphoneos-arm.deb
+Size: 5780
+MD5sum: 6906f706ca8c9a02144aec2995d4c3f4
+SHA1: b16f0fa4c362edd58795e1c2176af9075fbeab98
+SHA256: 7db3d5cf2d43d3b05b2719d9a3871f05bd038311336f2dde3f585cb08607ad1b
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: bag.xml
+Name: SigPass
+
+Package: com.ivintagelover.locktimex
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: iVintageLover
+Filename: ./debs/com.ivintagelover.locktimex_1.2_iphoneos-arm.deb
+Size: 5622074
+MD5sum: b63472ced4da3ad40db67c6a792ede09
+SHA1: 11d4f009ac03d37d6063b992dfb7678661ba1e0f
+SHA256: ac1bd0e507d4631de98a44cdf4cc32b2b24728ad86d8d429d555d523fd2e5893
+Section: Tweaks
+Description: iOS 16 Lock Screen clock for older iDevices. Apply using Xen HTML. Supports iPhone, iPad and iPod touch running iOS 9.0 and later.
+Author: iVintageLover
+Name: LockTimeX
+
+Package: com.saurik.afc2d
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 8.0) | mobilesubstrate
+Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
+Size: 18114
+MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
+SHA1: bddaf385263b9aad2b032b2116179f83afd077cc
+SHA256: 287ac4ce1a6e4095e824fd90f71fed301ff7d9508f1cd2d87a7354053e347a3c
+Section: System
+Priority: optional
+Description: allow full file-system access over USB
+Tag: purpose::daemon, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
+Name: Apple File Conduit "2"
+
 Package: dev.preloading.retranslate
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -54,6 +106,26 @@ Description: AppSync for iOS 4 allows you to sync and install unsigned iOS appli
 Author: Karen/あけみ, Dissident <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsync40plus
 Name: AppSync for iOS 4.0
+
+Package: uk.invoxiplaygames.tubefixer
+Version: 2.0-152+debug
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 136
+Pre-Depends: dpkg (>= 1.13.25-5)
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: ./debs/tubefixer-2.0-152-RC1.deb
+Size: 27972
+MD5sum: 3099d5610e8e73426a947fcf646fffcf
+SHA1: 8971219e0b2c4dee1632631a72507d387689deb6
+SHA256: 7912801feec7ec8062a39a0187976647da05cfe16026147a65ec2ecd58dd7c00
+Section: Tweaks
+Homepage: http://tubefixer.ovh/
+Description: Package to fix YouTube on iOS 3-5
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/tubefixer.php
+Icon: file:///Library/Application%20Support/uk.invoxiplaygames.tubefixer/tubefixericon.png
+Name: TubeFixer for iOS
 
 Package: us.hackulo.appsync32
 Version: 1.0.2
