@@ -1,0 +1,176 @@
+Package: ai.akemi.appsyncunified
+Version: 116.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 636
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: ./debs/ai.akemi.appsyncunified_116.0_iphoneos-arm.akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
+Size: 51658
+MD5sum: 536009a11dad57e48a5563224eaffaff
+SHA1: e0fa412cb3c26718887edd834804c88909297079
+SHA256: 0036f28fcbdb165d4f58968a237ca9fe7b6ed33fea25b9a5eb1fc141f6bf5a09
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
+Package: bag.xml.sigpass
+Version: 0.0.1-9+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/bag.xml.sigpass_0.0.1-9+debug_iphoneos-arm.deb
+Size: 5780
+MD5sum: 6906f706ca8c9a02144aec2995d4c3f4
+SHA1: b16f0fa4c362edd58795e1c2176af9075fbeab98
+SHA256: 7db3d5cf2d43d3b05b2719d9a3871f05bd038311336f2dde3f585cb08607ad1b
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: bag.xml
+Name: SigPass
+
+Package: com.isoftru.bochs
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: isoftcom.com <isoftteamsupport@gmail.com>>
+Filename: ./debs/bochs.deb
+Size: 36844432
+MD5sum: 2fc90234ca64aec8d45d14b938b722c9
+SHA1: a1aeb6638d3a14378b4eefca73e4e38ee1fb5275
+SHA256: b4b076aa5fe88dc2dad22b3da9a329043b5efbc3c4eefb96f57f45a0273fc382
+Section: System
+Homepage: http://isoftcom.com/
+Description: Run Windows 3.11 and Windows 95 on your iPhone. It's slow, but worked.
+Author: isoftcom.com <isoftteamsupport@gmail.com>
+Dev: isoftru
+Name: Bochs (Win95 for iPhone)
+
+Package: com.ivintagelover.locktimex
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: iVintageLover
+Filename: ./debs/com.ivintagelover.locktimex_1.2_iphoneos-arm.deb
+Size: 5622074
+MD5sum: b63472ced4da3ad40db67c6a792ede09
+SHA1: 11d4f009ac03d37d6063b992dfb7678661ba1e0f
+SHA256: ac1bd0e507d4631de98a44cdf4cc32b2b24728ad86d8d429d555d523fd2e5893
+Section: Tweaks
+Description: iOS 16 Lock Screen clock for older iDevices. Apply using Xen HTML. Supports iPhone, iPad and iPod touch running iOS 9.0 and later.
+Author: iVintageLover
+Name: LockTimeX
+
+Package: com.piercingimpulse.verduraios
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: PiercingImpulse
+Installed-Size: 328
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.piercingimpulse.verduraios_0.0.2_iphoneos-arm.deb
+Size: 36258
+MD5sum: 8cb7896285b3e515476450cb36093c31
+SHA1: e4b349a7546415461ecb34060068c4e9222b9805
+SHA256: 99d60b9815e16c9e5d02d27c5090c7e724899fb5b7232f1981564652080123c4
+Section: Tweaks
+Description: Tired to watch YouTube on Safari or Google Chrome on older device? Download YouTube 10.11.11546, spoof the version on the plist file and then get VerduraiOS! For the full guide on how to use it, please visit my GitHub page :)
+Author: PiercingImpulse
+Name: Verdura iOS [BETA]
+
+Package: dev.preloading.retranslate
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Preloading
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/dev.preloading.retranslate_1.1.0_iphoneos-arm.deb
+Size: 18432
+MD5sum: 3351e159ad5f0b491818bfbf457e5d13
+SHA1: 46d114bc457bd47fa7d6097538653d1d624beb65
+SHA256: f9dd235a3461dc6a55aaa5bf5aa669d200568cb5e38cecdaa5199e607be7ae83
+Section: Tweaks
+Description: Fixes Google Translate.
+Author: Preloading, SpaceSaver2000-1
+Name: Retranslate
+
+Package: net.angelxwind.appsync40plus
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Pre-Depends: firmware (>= 4.0), firmware (<< 5.0)
+Conflicts: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Replaces: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Provides: appsync, us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Filename: ./debs/net.angelxwind.appsync40plus.deb
+Size: 9202
+MD5sum: 4450d7c556bdf0504b14d678da5e5362
+SHA1: 7b0040049afef1d0309c108bcf0a7ed9d19921d4
+SHA256: 0d20fd163cfa37f4e63f054516d9b7c0f68801cf517594dbe2145faf50c5c8a7
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: AppSync for iOS 4 allows you to sync and install unsigned iOS applications. Only for iOS 4.
+Author: Karen/あけみ, Dissident <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsync40plus
+Name: AppSync for iOS 4.0
+
+Package: us.hackulo.appsync32
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Dissident <apps@hackulo.us>
+Pre-Depends: firmware (= 3.2) | firmware (= 3.2.1) | firmware (= 3.2.2)
+Depends: com.hackulo.us.sourcegui
+Provides: appsync
+Filename: ./debs/appsync32-1.0.2.deb
+Size: 274604
+MD5sum: b929f7ee7178df882e31cb34f78c99db
+SHA1: 9e45cce1063f42f2907544ef15d05037108d8354
+SHA256: d2125434b2bcc895cf2c65e7cf0d9d89d7c4143ffccdbf09466e77f7f89b86d8
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Dissident <apps@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync32/
+Name: AppSync for OS 3.2
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: us.hackulo.appsync40
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Dissident <appsync@hackulo.us>
+Pre-Depends: firmware (= 4.0) | firmware (= 4.0.1) | firmware (= 4.0.2)
+Depends: com.hackulo.us.sourcegui
+Filename: ./debs/appsync40-1.0.2.deb
+Size: 285514
+MD5sum: 2f5d1dcdf9ca5173efd501ab2e88761f
+SHA1: b19d074b59ecda3d95a00620b4fd1699d11bc72c
+SHA256: 7009e14f630ae4ddcbea4d7c8723d1050e4301b5dd433cf17077578ea9811031
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Reilly <appsync@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync40/
+Name: AppSync for OS 4.0
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: us.hackulo.appsync41
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Dissident <appsync@hackulo.us>
+Pre-Depends: firmware (= 4.1)
+Depends: com.hackulo.us.sourcegui
+Filename: ./debs/appsync41-1.0.1.deb
+Size: 270612
+MD5sum: d48daa3a36e9a9e9ae245a2aadff9b95
+SHA1: 41b10155db8eaacd8e5d84c10df6af60752ecdaa
+SHA256: ac4f84fbb6ca9544d29f4d9dd308f28bdd0e5991085d483e825d7986a6d9858f
+Section: Hackulo.us
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Reilly <appsync@hackulo.us>
+Depiction: http://hackulo.us/depict/appsync41/
+Name: AppSync for OS 4.1
+Sponsor: Hackulo.us <http://hackulo.us>
