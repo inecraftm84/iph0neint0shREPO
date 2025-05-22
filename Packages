@@ -35,6 +35,102 @@ Description: An awesome MobileSubstrate tweak!
 Author: bag.xml
 Name: SigPass
 
+Package: clutch13
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: KJCracks
+Conflicts: clutch2
+Filename: ./debs/clutch13.deb
+Size: 44530
+MD5sum: 66d24451eca29a2ce4e130088cb6e552
+SHA1: 18dacef51e1edee2c09456812ce8a484e48a9f9a
+SHA256: 108a61c9d096d37d508e97a1701c9594b1b8c58708153511187c3c2b83d799d6
+Section: Terminal Support
+Description: High-speed iOS app decryption tool (iOS 5)
+Author: KJCracks
+Name: Clutch 1.3
+
+Package: clutch2
+Version: 2.0.4
+Architecture: iphoneos-arm
+Maintainer: KJCracks
+Filename: ./debs/clutch2.deb
+Size: 457524
+MD5sum: ab892f9fe73c37cd8bc174e31ce3e7b6
+SHA1: 6c4c3a43156e09b79f0b98f220341935096e8c78
+SHA256: 09e923dafaa848e44f73c86bf5d7b96641dc925b8392cd8bbe31e0fde1b85c2c
+Section: Terminal Support
+Description: High-speed iOS app decryption tool
+Author: KJCracks
+Name: Clutch 2.0.4
+
+Package: com.andydam.appcrackr
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: andydam <andydam@gmail.com>
+Pre-Depends: ldid
+Depends: adv-cmds, com.ericasadun.utilities, coreutils, gawk, gdb, zip
+Filename: ./debs/appcrackr_1.3.1.deb
+Size: 129384
+MD5sum: e4e59e67f0ce3014a916333aa90d4e90
+SHA1: d55784802ad5f0c876e3ae77499052ce95622b2b
+SHA256: a057dfded86aff62d2ac20edb0d50c93490bddfeac5dda29df3e93d749c14f5b
+Section: andydam
+Homepage: http://andydam.com/appcrackr.htm
+Description: A GUI for cracking scripts
+ A graphical user interface for poedgirl's poedCrack and MadHouse's CrackTM.
+Author: andydam
+Depiction: http://andydam.com/repo/appcrackrinfo
+Name: AppCrackr
+
+Package: com.darlo770.folders
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Darlo770
+Depends: mobilesubstrate, firmware (>= 3.0)
+Filename: ./debs/iOS3Folders1.2_Darlo770.deb
+Size: 201470
+MD5sum: 13d439f54315ac4bba59b73071ed2064
+SHA1: 9f807f69f312191cdd800b2f3ba225d67cea2883
+SHA256: dd586bab2f006bc9d8e91c1da68d75311091d49331d7af2f7bfedce44e870a70
+Section: Tweaks
+Homepage: http://twitter.com/Darlo770
+Description: Version 1.1 onwards is a major overhaul compared to previous versions. Stability and performance improved. If you use iOS3 Multitasking, you will need to update it to 1.0.3 (fixes 'multitasking while a folder is open' bug)
+Name: iOS3 Folders
+Sponsor: Darlo770
+
+Package: com.darlo770.multitasking
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Darlo770
+Depends: mobilesubstrate, firmware (>= 3.0)
+Filename: ./debs/iOS3Multitasking-1.0.3[Darlo770].deb
+Size: 144954
+MD5sum: 452cd854b5a0527e231499c78d24398e
+SHA1: 1a1482764b56a146e694a9895dea1994138582cd
+SHA256: fc8933d8bd7abf99112b5426e87ec888ce149e6a2dcc775f2f09d9b3671d112d
+Section: Tweaks
+Homepage: http://twitter.com/Darlo770
+Description: Multitasking for iOS3 Beta.
+Name: iOS3 Multitasking
+Sponsor: Darlo770
+
+Package: com.darlo770.wallpaper
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Darlo770
+Depends: mobilesubstrate, firmware (>= 3.0)
+Filename: ./debs/iOS3Wallpaper1.0.2_Darlo770.deb
+Size: 37322
+MD5sum: 39af94772b46db785f93cdf7b81aca2e
+SHA1: d408b28ea3c9cbfe1ce99483b6315a4633929c18
+SHA256: 0cdd09191f6da488a5f338c2384f82276f872c47d897e667ef7df3ee321a6b8a
+Section: Tweaks
+Homepage: http://twitter.com/Darlo770
+Description: This package will enable you to have SpringBoard wallpapers with the iOS 4 way of setting them. Also includes: icon shadows, white icon labels, dock label height correction, and iOS 4 reflective dock. All in a lightweight, efficient substrate.
+Name: iOS 3 Wallpaper
+Sponsor: Darlo770
+
 Package: com.exile90.icleanerpro
 Version: 7.8.3
 Architecture: iphoneos-arm
@@ -171,6 +267,21 @@ Section: Tweaks
 Description: Fixes Google Translate.
 Author: Preloading, SpaceSaver2000-1
 Name: Retranslate
+
+Package: neofetch
+Version: 7.1.0.2
+Architecture: iphoneos-arm
+Maintainer: KawaiiZenbo
+Depends: coreutils, gawk, grep, bash, coreutils-bin, system-cmds, darwintools
+Filename: ./debs/neofetch.deb
+Size: 86880
+MD5sum: 5321d5d7158571ce3ca54e8900d89fb6
+SHA1: 2d0f8ed382266bf162fc2830cc14cbf86a2efa86
+SHA256: 77a3518c53177917c094c601221967512c7a2edd3a304b47aa8c23ad22c175af
+Section: Terminal Support
+Description: A command-line system information tool written in bash 3.2+ from https://github.com/dylanaraps/neofetch, packaged for iOS
+Author: dylanaraps
+Name: neofetch
 
 Package: net.angelxwind.airspeaker
 Version: 1.4.5
@@ -880,6 +991,41 @@ Tag: cydia::obsolete
 Author: Karen Tsai (angelXwind)
 Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
 Name: Unlimited NC Notifications (mikoto)
+
+Package: ultrasn0w
+Version: 1.2.8
+Architecture: iphoneos-arm
+Maintainer: Dev Team <blog@iphone-dev.org>
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1), firmware (<< 5.0) | mobilesubstrate (>= 0.9.3900)
+Conflicts: blacksn0w, yellowsn0w, gsc.wildcat
+Filename: ./debs/ultrasn0w.deb
+Size: 15238
+MD5sum: 11be21a4d635cd8a9d68c81f2616fb03
+SHA1: d860e8717bd5e4d5253296c9fb2058ebcb227884
+SHA256: 287a9439a41e85336d38d45ff1560edf35d2aa09eeb14585c2e4a25328fe31b5
+Section: Utilities
+Homepage: http://ultrasn0w.com/
+Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
+Author: Dev Team <blog@iphone-dev.org>
+Name: ultrasn0w
+
+Package: us.hackulo.appsync31
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Genius Blog <appsync@hackulo.us>
+Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
+Provides: appsync
+Filename: ./debs/appsync31-1.0.2.deb
+Size: 248082
+MD5sum: 4833d00d8bb9c6da0ad06aa0f13a0acf
+SHA1: 0d985691581885d323d61bbfc195602d6b281e46
+SHA256: c9ded74192d0e3a78855700f65be3834c53364782343338f336f2315a4e60e89
+Section: Utilities
+Priority: standard
+Description: AppSync patches the installd file on your device
+Author: Reilly <appsync@hackulo.us>
+Name: AppSync for OS 3.1
+Sponsor: Hackulo.us <http://hackulo.us>
 
 Package: us.hackulo.appsync32
 Version: 1.0.2
